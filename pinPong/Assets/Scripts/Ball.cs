@@ -6,7 +6,7 @@ public class Ball : MonoBehaviour
 {
     public float speed = 32.1F;
     private Rigidbody m_body;
-    private bool isThrown = false;
+    public bool isThrown = false;
     public float horizontalSpeed = 0.1F; /*좌우 조종시 이동 속도*/
 
 
